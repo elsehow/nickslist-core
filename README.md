@@ -1,6 +1,6 @@
 # nickslist-core
 
-core state management for [nickslist]()
+core state management for [nickslist](https://github.com/elsehow/nickslist)
 
 ## install
 
@@ -30,7 +30,7 @@ manager.post({ hello: 'hi' }, (err, node) => {
 
 ### var keys = nickslist.makeKeys()
 
-returns an object `{ signKeypair, encryptKeypair }` (see [hyperreal]())
+returns an object `{ signKeypair, encryptKeypair }` (see [hyperreal](https://github.com/elsehow/hyperreal))
 
 pass `keys` into `nickslist.manager(keys, hyperlog)`
 
@@ -38,7 +38,7 @@ pass `keys` into `nickslist.manager(keys, hyperlog)`
 
 `keys` are from `nickslist.makeKeys()`
 
-`hyperlog` is any [hyperlog]()-like object
+`hyperlog` is any [hyperlog](https://github.com/mafintosh/hyperlog)-like object
 
 ### list.post(msg, cb)
 
